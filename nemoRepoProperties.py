@@ -36,7 +36,7 @@ from gi.repository import GObject, Gtk, Nemo
 from nemoRepoCore import (findRepoRoot, repoCache, requireCore,
                           singleLocalDirectory)
 
-requireCore("1.0.0")
+requireCore("0.1.0")
 
 
 def _buildGrid():
