@@ -1,13 +1,4 @@
 #!/usr/bin/python3
-"""nemo-repo-properties: a "Git" tab in the folder Properties dialog.
-
-Right click a repository folder, choose Properties, and the Git tab shows
-the branch, its upstream, how far ahead or behind it is, the working tree
-counts and the last commit. Values are selectable so they can be copied.
-
-Requires nemo-repo-core: https://github.com/dualfroz/nemo-repo-core
-"""
-
 import importlib.util
 import os
 import sys
